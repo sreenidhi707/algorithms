@@ -10,7 +10,7 @@ public:
 
 	tree_node* m_phead;
 	void insert_node(int32_t node_val);
-	void walk_tree();
+	//void walk_tree();
 private:
 	void insert_node(tree_node* node, int32_t node_val);
 };
@@ -66,3 +66,6 @@ void bst::insert_node(tree_node* node, int32_t node_val)
 		}
 	}
 }
+
+
+void print_bst(tree_node* pHead);
