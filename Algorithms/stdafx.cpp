@@ -1,11 +1,5 @@
 
-#include "stdafx.h"
-#include "test_functions.h"
+//#include "stdafx.h"
 
 
-void main()
-{
-	
-	
 
-}

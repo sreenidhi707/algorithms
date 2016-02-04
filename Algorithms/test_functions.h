@@ -1,5 +1,8 @@
 #pragma once
 
+#ifndef _TEST_FUNCTIONS_H_
+#define _TEST_FUNCTIONS_H_
+
 #include "string_utilities.h"
 #include <iostream>
 
@@ -23,4 +26,6 @@ void test_string_palindrome()
 		}
 	}
 }
+
+#endif
 

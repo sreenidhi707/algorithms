@@ -1,6 +1,9 @@
+#ifndef _NODES_H_
+#define _NODES_H_
 
 #include <stdint.h>
 #include <assert.h>
+
 
 class tree_node
 {
@@ -37,4 +40,5 @@ tree_node::~tree_node()
 	right = nullptr;
 }
 
+#endif
 

@@ -1,4 +1,4 @@
-#include "stdafx.h"
+//#include "stdafx.h"
 #include "string_utilities.h"
 
 bool is_palindrome(std::string input_string)
