@@ -23,7 +23,7 @@ int main(int argc, char* argv[])
 	bst_obj.insert_node(14);
 	bst_obj.insert_node(13);
 
-	print_bst(&node);
+	bst_obj.print_bst();
 	return 0;
 }
 

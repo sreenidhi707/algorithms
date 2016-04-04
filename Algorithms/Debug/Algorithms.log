@@ -1,2 +1,6 @@
-﻿  Algorithms.cpp
+﻿  string_utilities.cpp
+  stdafx.cpp
+  bst.cpp
+  Algorithms.cpp
+  Generating Code...
   Algorithms.vcxproj -> C:\Users\sanand2\Dropbox\MyProjects\algorithms\Debug\Algorithms.exe

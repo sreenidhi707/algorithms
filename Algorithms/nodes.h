@@ -21,23 +21,23 @@ public:
 tree_node::tree_node(int32_t node_val)
 {
 	data = node_val;
-	parent = nullptr;
-	left = nullptr;
-	right = nullptr;
+	parent = NULL;
+	left = NULL;
+	right = NULL;
 }
 
 tree_node::~tree_node()
 {
 	data = 0;
 
-	assert(left != nullptr);
-	assert(right != nullptr);
+	assert(left != NULL);
+	assert(right != NULL);
 
 	delete left;
-	left = nullptr;
+	left = NULL;
 
 	delete right;
-	right = nullptr;
+	right = NULL;
 }
 
 #endif
