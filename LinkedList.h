@@ -9,6 +9,7 @@ public:
 	ll_node* phead;
 
 	linked_list();
+	linked_list(uint32_t head_val);
 	linked_list(ll_node* head);
 	
 	void add_node(ll_node* head);
@@ -17,8 +18,19 @@ public:
 	void destroy();
 };
 
+linked_list::linked_list()
+{
+	phead = NULL;
+}
+
+linked_list::linked_list(uint32_t head_val)
+{
+	add_node(head_val);
+}
+
 linked_list::linked_list(ll_node* head)
 {
+	assert(head != NULL);
 	phead = head;
 }
 
